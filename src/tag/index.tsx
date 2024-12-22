@@ -18,7 +18,7 @@ export type TagProps = {
   size?: TagSize;
   mark?: boolean;
   color?: string;
-  plain?: boolean;
+  plain?: boolean; // 朴素模式，即有背景透明 & 有边框
   round?: boolean;
   textColor?: string;
   closeable?: boolean;
